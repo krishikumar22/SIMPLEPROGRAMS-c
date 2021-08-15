@@ -3,17 +3,16 @@
 
 int main()
 {
-    int p;
-    int n;
-    float r;
-    float si;
-    printf("the p is:");
-    scanf("%d",&p);
-    printf("the n is:");
-    scanf("%d",&n);
-    printf("the r is:");
-    scanf("%f",&r);
-    si=(p*n*r)/100;
-    printf("the simple interest is %.3f",si);
+    int r;
+    float area;
+    float perimeter;
+    const float pi=3.14;
+    printf("enter the value of r");
+    scanf("%d",&r);
+    area=pi*r*r;
+    perimeter=2*pi*r;
+
+
+    printf("area and perimeter is %.2f %.2f",area,perimeter);
     return 0;
 }
